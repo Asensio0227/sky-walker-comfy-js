@@ -20,7 +20,7 @@ const date = document.querySelector('.date');
 
 // date
 let year=new Date().getFullYear();
-date.innerHTML=year;
+date.innerHTML = year;
 
 // cart
 let cart = [];
@@ -145,7 +145,9 @@ class UI{
     cart = Storage.getCart();
     this.setCartValues(cart);
     this.populateCart(cart);
-    cartBtn.addEventListener('click', this.showCart());
+    cartBtn.addEventListener('click', () => {
+      this.showCart()
+    });
     closeCart.addEventListener('click', () => {
       this.hideCart()
       console.log(closeCart);
