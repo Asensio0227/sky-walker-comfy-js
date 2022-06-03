@@ -1,6 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
 :root {
+  /* dark secondary shades */
+  --clr-secondary-1: hsl(181, 100%, 19%);
+  --clr-secondary-2: hsl(181, 85%, 21%);
+  --clr-secondary-3: hsl(183, 71%, 23%);
+  --clr-secondary-4: hsl(185, 95%, 25%);
+  /* light secondary shades */
+  --clr-secondary-5: #28cab2;
+  --clr-secondary-6: hsl(182, 85%, 68%);
+  --clr-secondary-7: hsl(181, 81%, 69%);
+  --clr-secondary-8: hsl(185, 71%, 69%);
+  --clr-secondary-9: hsl(183, 88%, 75%);
+  --clr-secondary-10: hsl(181, 68%, 70%);
+  /* dark grey shades */
+  --clr-grey-1: hsl(210, 67%, 17%);
+  --clr-grey-2: hsl(209, 39%, 32%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(211, 28%, 39%);
+  /* light grey shades */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(210, 28%, 63%);
+  --clr-grey-7: hsl(210, 32%, 69%);
+  --clr-grey-8: hsl(210, 27%, 74%);
+  --clr-grey-9: hsl(212, 36%, 86%);
+  --clr-grey-10: hsl(210, 33%, 94%);
+  /* other color */
+  --clr-lime: #fd5d65;
+  --clr-gold: #c59d5c;
+  --ff-primary: "Roboto Sans", sans-serif;
+  --ff-seconday: "Sans Open", sans-serif;
   --primaryColor: #f09d51;
   --mainWhite: #fff;
   --mainBlack: #222;
